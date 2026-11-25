@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 from datetime import datetime
 
 URL = "https://www.politeamagreco.it/scheda.asp?id=1151"
-TARGET = "frase inesistente"
+TARGET = "biglietti in vendita a breve"
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 CHAT_ID = os.environ["CHAT_ID"]
